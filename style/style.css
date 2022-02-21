@@ -17,6 +17,11 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+@media screen and (max-width: 990px) {
+  body {
+    width: 100%;
+  }
+}
 /**********************/
 /* Container */
 .container {

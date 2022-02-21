@@ -50,6 +50,12 @@ body {
     font-family: $all-fnt;
 }
 
+@media screen and (max-width: 990px) {
+    body {
+        width: 100%;
+    }
+}
+
 
 /**********************/
 
