@@ -20,12 +20,12 @@ const elements = {
 let count = 0;
 let listCount = 0;
 
-elements.addItem.addEventListener('click', function() {
+elements.addItem.addEventListener('click', () => {
     count += 1;
     elements.count.innerText = count;
 });
 
-elements.removeItem.addEventListener('click', function() {
+elements.removeItem.addEventListener('click', () => {
     count -= 1;
     if (count < 0) {
         count = 0;
@@ -35,11 +35,11 @@ elements.removeItem.addEventListener('click', function() {
     }
 });
 
-elements.cart.addEventListener('click', function() {
+elements.cart.addEventListener('click', () => {
     elements.newItem.style.display = 'none';
 });
 
-elements.cart.addEventListener('click', function() {
+elements.cart.addEventListener('click', () => {
     if (elements.cartResume.style.display === 'none') {
         elements.cartResume.style.display = 'block';
     } else {
@@ -47,7 +47,7 @@ elements.cart.addEventListener('click', function() {
     }
 });
 
-elements.button.addEventListener('click', function() {
+elements.button.addEventListener('click', () => {
     if (count > 0) {
         elements.newItem.style.display = 'block';
         elements.warning.style.display = 'none';
@@ -158,10 +158,18 @@ elements.imgModal.forEach(img => {
     })
 });
 
-elements.thumbnail.addEventListener('click', function() {
+elements.thumbnail.addEventListener('click', () => {
     elements.modal.style.display = 'block';
 });
 
-document.querySelector(".modal__close").addEventListener('click', function() {
+document.querySelector(".modal__close").addEventListener('click', () => {
     elements.modal.style.display = 'none';
 });
+
+document.getElementById("open-mobile-menu").addEventListener('click', () => {
+    document.getElementById("mobile-menu").style.display = 'block';
+});
+
+document.getElementById("close-mobile-menu").addEventListener('click', () => {
+    document.getElementById("mobile-menu").style.display = 'none';
+})
