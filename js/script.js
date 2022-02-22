@@ -159,7 +159,6 @@ elements.imgModal.forEach(img => {
 });
 
 
-
 elements.thumbnail.addEventListener('click', () => {
     if (window.matchMedia("(max-width: 990px)").matches) {
         elements.modal.style.display = 'none';
@@ -167,7 +166,6 @@ elements.thumbnail.addEventListener('click', () => {
         elements.modal.style.display = 'block';
     }
 });
-
 
 
 document.querySelector(".modal__close").addEventListener('click', () => {

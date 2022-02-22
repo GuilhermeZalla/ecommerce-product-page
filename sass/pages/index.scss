@@ -86,7 +86,7 @@ body {
 .header__navbar--mobile {
     @include position(absolute, 0, 0, 0, 0, 15);
     background-color: rgba(0, 0, 0, 0.699);
-    height: 190vh;
+    height: 185vh;
     display: none;
     .header__list {
         @include position(absolute, 0, 0, 0, 55%, 15);
@@ -403,6 +403,31 @@ body {
         .main__product {
             border-radius: 15px;
             width: 100%;
+            .go-next-left,
+            .go-next-right {
+                background-color: $clr-light;
+                border-radius: 50%;
+                font-size: 2rem;
+                padding: 5px 15px;
+                cursor: pointer;
+            }
+            .go-next-left {
+                position: absolute;
+                top: 50%;
+                left: 0;
+            }
+            .go-next-right {
+                transform: rotate(180deg);
+                position: absolute;
+                top: 50%;
+                right: 0;
+            }
+            i {
+                &:hover {
+                    color: $clr-light;
+                    background-color: $clr-primary;
+                }
+            }
         }
         .product-overview {
             max-width: 100%;

@@ -52,7 +52,7 @@ body {
   right: 0;
   z-index: 15;
   background-color: rgba(0, 0, 0, 0.699);
-  height: 190vh;
+  height: 185vh;
   display: none;
 }
 .header__navbar--mobile .header__list {
@@ -410,6 +410,29 @@ body {
 .main .main__aside .main__product {
   border-radius: 15px;
   width: 100%;
+}
+.main .main__aside .main__product .go-next-left,
+.main .main__aside .main__product .go-next-right {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.main .main__aside .main__product .go-next-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.main .main__aside .main__product .go-next-right {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.main .main__aside .main__product i:hover {
+  color: white;
+  background-color: #ff7d1a;
 }
 .main .main__aside .product-overview {
   max-width: 100%;
