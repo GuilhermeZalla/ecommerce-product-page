@@ -50,12 +50,6 @@ body {
     font-family: $all-fnt;
 }
 
-@media screen and (max-width: 990px) {
-    body {
-        width: 100%;
-    }
-}
-
 
 /**********************/
 
@@ -322,7 +316,7 @@ body {
     display: none;
     .modal__close {
         position: absolute;
-        top: 5%;
+        top: 8%;
         left: 64%;
         cursor: pointer;
         svg {
@@ -351,13 +345,13 @@ body {
             }
             .go-next-left {
                 position: absolute;
-                top: 35%;
+                top: 40%;
                 left: 33.5%;
             }
             .go-next-right {
                 transform: rotate(180deg);
                 position: absolute;
-                top: 35%;
+                top: 40%;
                 left: 63.5%;
             }
             i {

@@ -158,8 +158,14 @@ elements.imgModal.forEach(img => {
     })
 });
 
+
+
 elements.thumbnail.addEventListener('click', () => {
     elements.modal.style.display = 'block';
+});
+
+elements.thumbnail.addEventListener('touchmove', () => {
+    window.alert("Olá")
 });
 
 document.querySelector(".modal__close").addEventListener('click', () => {

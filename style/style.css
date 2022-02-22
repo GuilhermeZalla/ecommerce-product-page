@@ -17,11 +17,6 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 
-@media screen and (max-width: 990px) {
-  body {
-    width: 100%;
-  }
-}
 /**********************/
 /* Container */
 .container {
@@ -322,7 +317,7 @@ body {
 }
 .main__modal .modal__close {
   position: absolute;
-  top: 5%;
+  top: 8%;
   left: 64%;
   cursor: pointer;
 }
@@ -356,13 +351,13 @@ body {
 }
 .main__modal .modal__container .main__product .go-next-left {
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 33.5%;
 }
 .main__modal .modal__container .main__product .go-next-right {
   transform: rotate(180deg);
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 63.5%;
 }
 .main__modal .modal__container .main__product i:hover {
