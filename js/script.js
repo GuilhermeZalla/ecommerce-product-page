@@ -158,9 +158,17 @@ elements.imgModal.forEach(img => {
     })
 });
 
+
+
 elements.thumbnail.addEventListener('click', () => {
-    elements.modal.style.display = 'block';
+    if (window.matchMedia("(max-width: 990px)").matches) {
+        elements.modal.style.display = 'none';
+    } else {
+        elements.modal.style.display = 'block';
+    }
 });
+
+
 
 document.querySelector(".modal__close").addEventListener('click', () => {
     elements.modal.style.display = 'none';
