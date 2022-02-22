@@ -297,9 +297,9 @@ body {
 
   .header__items-resume {
     position: absolute;
-    top: 400%;
+    top: 230%;
     bottom: 0;
-    left: -950%;
+    left: -700%;
     right: 0;
     z-index: 10;
   }

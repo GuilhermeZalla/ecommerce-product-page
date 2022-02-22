@@ -303,7 +303,7 @@ body {
         display: none;
     }
     .header__items-resume {
-        @include position(absolute, 400%, 0, -950%, 0, 10);
+        @include position(absolute, 230%, 0, -700%, 0, 10);
     }
 }
 
