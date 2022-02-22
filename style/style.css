@@ -297,11 +297,12 @@ body {
 
   .header__items-resume {
     position: absolute;
-    top: 190%;
+    top: 400%;
     bottom: 0;
-    left: -900%;
+    left: -950%;
     right: 0;
     z-index: 10;
+    width: 1180%;
   }
 }
 /**********************/
