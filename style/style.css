@@ -15,6 +15,7 @@ a {
 
 body {
   font-family: "Kumbh Sans", sans-serif;
+  width: 100%;
 }
 
 /**********************/
@@ -410,7 +411,7 @@ body {
 .main .main__aside .main__product {
   position: relative;
   border-radius: 15px;
-  width: 100%;
+  width: 25vw;
 }
 .main .main__aside .main__product .go-next-left,
 .main .main__aside .main__product .go-next-right {
@@ -467,7 +468,7 @@ body {
   opacity: 0.7;
 }
 .main .main__article {
-  margin-top: 2rem;
+  margin-top: 2%;
 }
 .main .main__title {
   color: #1d2025;
@@ -673,9 +674,6 @@ body {
 @media screen and (min-width: 1400px) {
   .main .main__aside .main__thumbnail img {
     width: 20%;
-  }
-  .main .main__article {
-    margin-top: 7rem;
   }
   .main .main__title {
     color: #1d2025;

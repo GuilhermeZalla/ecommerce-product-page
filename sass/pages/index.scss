@@ -48,6 +48,7 @@ a {
 
 body {
     font-family: $all-fnt;
+    width: 100%;
 }
 
 
@@ -403,7 +404,7 @@ body {
         .main__product {
             position: relative;
             border-radius: 15px;
-            width: 100%;
+            width: 25vw;
             .go-next-left,
             .go-next-right {
                 background-color: $clr-light;
@@ -460,7 +461,7 @@ body {
         }
     }
     .main__article {
-        margin-top: 2rem;
+        margin-top: 2%;
     }
     .main__title {
         @include text-style($clr-darker, 700, 2.4rem, 1.2cm, unset);
@@ -603,9 +604,6 @@ body {
                     width: 20%;
                 }
             }
-        }
-        .main__article {
-            margin-top: 7rem;
         }
         .main__title {
             @include text-style($clr-darker, 700, 4rem, 1.6cm, unset);
